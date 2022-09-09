@@ -97,7 +97,7 @@ public class GTAMoreInfo
         ptr_V_v3Velocity = getAddress3(WorldPtr, 0x8, 0xD30, 0x7F0);     //ptr_V_v3Velocity='[[[WorldPTR]+8]+D28]+7D'
         ptr_P_v3Velocity = getAddress2(WorldPtr, 0x8, 0x850);            //ptr_P_v3Velocity='[[WorldPTR]+8]+32'
         ptr_v3PlayerPos = getAddress2(WorldPtr, 0x8, 0x90);              //ptr_v3PlayerPos='[[WorldPTR]+8]+9'
-        ptr_InVehicle = getAddress2(WorldPtr, 0x8, 0x148C);              //ptr_InVehicle='[[WorldPTR]+8]+146C'
+        ptr_InVehicle = getAddress2(WorldPtr, 0x8, 0x14DC);              //ptr_InVehicle='[[WorldPTR]+8]+146C'
         ptr_VehicleMaxSpeed = getAddress3(WorldPtr, 0x8, 0xD30, 0x8CC);  //ptr_VehicleMaxSpeed='[[[WorldPTR]+8]+D28]+8AC'
         ptr_VehicleGear = getAddress1(UnkPtr, 0xFD4);                    //ptr_VehicleGear='[UnkPTR]+FC4'
         ptr_VehicleRPM = getAddress1(UnkPtr, 0xE50);                     //ptr_VehicleRPM='[UnkPTR]+E40'
